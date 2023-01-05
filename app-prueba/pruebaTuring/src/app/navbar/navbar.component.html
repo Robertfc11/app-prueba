@@ -1,0 +1,105 @@
+<!--Navbar-->
+<mdb-navbar class="posi" SideClass="navbar scrolling-navbar intro-fixed-nav fixed-top navbar-expand-lg navbar-dark transparent" [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand ml-5 mr-5 pl-5 pr-5" href="#">TURING-IA</a></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item  pl-2 pr-2">
+          <a class="nav-link waves-light" [routerLink]="['principal']" mdbWavesEffect>Inicio<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item  pl-2 pr-2">
+          <a class="nav-link waves-light" [routerLink]="['nosotros']" mdbWavesEffect>Nosotros</a>
+        </li>
+  
+        <!-- Dropdown -->
+        <li class="nav-item dropdown pl-2 pr-2" dropdown>
+          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" [routerLink]="['servicios']" mdbWavesEffect>
+            Servicios<span class="caret"></span></a>
+          <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/ba.php">Business Analyst</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/workshop.php">Workshop</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/capacitacion.php">Capacitación</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/vsoftware.php">Venta de Software</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/hardware.php">Hardware</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/dsoftware.php">Desarrollo de Software</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/scorecard.php">Balanced Scorecard</a>
+          </div>
+        </li>
+  
+        <!-- Dropdown -->
+        <li class="nav-item dropdown pl-2 pr-2" dropdown>
+          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" [routerLink]="['tableau']" mdbWavesEffect>
+            Tableau<span class="caret"></span></a>
+          <div *dropdownMenu class="dropdown-menu dropdown dropdown-primary" role="menu">
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/t-desktop.php">Desktop</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/t-prep.php">Prep</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/t-cloud.php">Cloud</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/t-server.php">Server</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/t-server-management.php">Server management</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="https://www.turing-ia.com/t-data-management.php">Data management</a>
+          </div>
+        </li>
+  
+        <li class="nav-item pl-2 pr-2">
+          <a class="nav-link waves-light" href="https://www.turing-ia.com/portal/" mdbWavesEffect>Portal</a>
+        </li>
+        <li class="nav-item pl-2 pr-2">
+          <a class="nav-link waves-light" href="https://www.turing-ia.com/blog/" mdbWavesEffect>Blog</a>
+        </li>
+        <li class="nav-item pl-2 pr-2">
+          <a class="nav-link waves-light" href="https://www.turing-ia.com/blog/#contact" mdbWavesEffect>Contacto</a>
+        </li>
+  
+      </ul>
+      <!-- Links -->
+  
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item">
+          <a href="https://www.linkedin.com/company/turing-inteligencia-artificial/?originalSubdomain=mx" class="nav-link">
+            <mdb-icon fab icon="linkedin"></mdb-icon>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://twitter.com/IaTuring" class="nav-link">
+            <mdb-icon fab icon="twitter"></mdb-icon>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/people/Turing-Inteligencia-Artificial/100072141934213/" class="nav-link">
+            <mdb-icon fab icon="facebook"></mdb-icon>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.instagram.com/iaturing/" class="nav-link">
+            <mdb-icon fab icon="instagram"></mdb-icon>
+          </a>
+        </li>
+
+        <!-- Se comenta por si hay registro de usuarios
+        <li class="nav-item">
+          <a class="nav-link">
+            <div class="btn-group" mdbDropdown>
+              <mdb-icon fas icon="user" mdbDropdownToggle></mdb-icon>
+              <div class="dropdown-menu dropdown-menu-right dropdown-primary">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="divider dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+          </a>
+        </li>
+        -->
+
+      </ul>
+    </links>
+    <!-- Collapsible content -->
+  
+  </mdb-navbar>
+  <!--/.Navbar-->
